@@ -1,0 +1,113 @@
+
+/*-----------------------------------------
+    main.css
+ ----------------------------------------*/
+
+/*-----------------------------------------
+    Fonts
+ ----------------------------------------*/
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Condensed", sans-serif;
+    src: url("fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url("fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+/*-----------------------------------------
+    Initial Resets
+ ----------------------------------------*/
+
+body, h1, h2, h3 {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+/*-----------------------------------------
+    Header
+ ----------------------------------------*/
+
+.header {
+    background-image: url("images/declaration-of-independence-1819-by-john-trumbull.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header > .overlay {
+    background-color: rgba(0,0,0,0.3);
+    height: inherit;
+}
+
+.header > .overlay > .header-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+/* Left Section */
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links > .nav-item {
+    margin: 0 10px;
+}
+
+.nav-links > .nav-item a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 18px;
+}
+
+.nav-links > .nav-item a:hover {
+    color: white;
+    transition: color 0.25s;
+}
+
+#active {
+    color: white;
+}
+
+/* Right Section */
+
+.right-section > .info-container span {
+    font-size: 18px;
+}
+
+/*-----------------------------------------
+    Header Content
+ ----------------------------------------*/
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82%;
+}
+
+.headings {
+    width: 70%;
+}
+
+.headings > h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.headings > h3 {
+    text-align: center;
+}
