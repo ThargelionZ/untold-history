@@ -166,3 +166,109 @@ body, h1, h2, h3 {
     background-color: #cc8800;
     transition: background-color 0.25s;
 }
+
+/*-----------------------------------------
+    American Women & American Men
+ ----------------------------------------*/
+
+.american-women, .american-men {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.picture-section {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.pic img {
+    height: 100%;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.banner h2 {
+    font-size: 50px;
+}
+
+.banner-women {
+    background-color: #981f1b;
+}
+
+.banner-men {
+    background-color: #cc8800;
+}
+
+/*-----------------------------------------
+    Quote
+ ----------------------------------------*/
+
+.quote {
+    /*background-color: #0f5057;*/
+    background-image: url("images/Surrender-of-Lord-Cornwallis-canvas-John-Laurens-1820.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.quote > .overlay {
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.quote-headings {
+    width: 90%;
+}
+
+.quote > .overlay > .quote-headings h2 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quote > .overlay > .quote-headings h3 {
+    font-size: 25px;
+    text-align: right;
+}
+
+/*-----------------------------------------
+    Footer
+ ----------------------------------------*/
+
+.footer {
+    height: 200px;
+    background-color: #0f5057;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-content > .nav-links > .nav-item a {
+    font-size: 20px;
+}
+
+.footer-content > .signature {
+    font-size: 20px;
+    text-align: center;
+}
