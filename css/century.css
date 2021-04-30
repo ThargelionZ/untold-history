@@ -1,0 +1,104 @@
+
+/*-----------------------------------------
+    century.css
+ ----------------------------------------*/
+
+.century-header {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.century-header > .overlay {
+    background-color: rgba(0,0,0,0.7);
+    height: inherit;
+}
+
+.century-header > .overlay > .header-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+/* Other .header-bar styles located in main.css */
+
+/* Century Title */
+
+.century-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+}
+
+.century-title h1 {
+    font-size: 50px;
+}
+
+/*-----------------------------------------
+    Historical Figure
+ ----------------------------------------*/
+
+.historical-figure-header {
+    padding: 50px;
+}
+
+.historical-figure-header > .name-header {
+    text-align: center;
+}
+
+.historical-figure-header > .name-header h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.historical-figure-header > .image-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historical-figure-header > .image-header img {
+    height: 450px;
+    width: 400px;
+}
+
+.historical-figure-description-container {
+    background-image: url("../images/boats.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.historical-figure-description-container > .overlay {
+    background-color: rgba(0,0,0,0.2);
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historical-figure-description-container > .overlay > .historical-figure-description {
+    width: 90%;
+    margin: 50px 0px;
+}
+
+.historical-figure-description-container > .overlay > .historical-figure-description > .important-dates {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.historical-figure-description-container > .overlay > .historical-figure-description > .important-dates span {
+    font-size: 20px;
+    width: 50%;
+}
+
+.historical-figure-description-container > .overlay > .historical-figure-description > .story p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
