@@ -182,6 +182,10 @@ body, h1, h2, h3, p {
     width: 50%;
 }
 
+.pic {
+    width: 34%;
+}
+
 .pic img {
     height: 100%;
     width: 100%;
